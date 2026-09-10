@@ -10,6 +10,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    //extra space added for testing
 }
 
 app.UseHttpsRedirection();
